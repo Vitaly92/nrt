@@ -1,0 +1,39 @@
+.item {
+    list-style-type: none;
+
+}
+
+.header__list {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+
+.header {
+    display:flex;
+    justify-content: space-between;
+    background: grey;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.item {
+    margin-left: 15px;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+.item__link {
+    color: black;
+}
+
+.header__basket {
+    color:black;
+}
+
+.item__link_red {
+    color: red;
+}
